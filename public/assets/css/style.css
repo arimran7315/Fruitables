@@ -1,0 +1,285 @@
+:root{
+    --white-color: #fff;
+    --grey-color: rgb(242, 240, 240);
+    --dark-color:#45595b;
+    --primary-color: #81c408;
+    --secondary-color:#ffb524;
+    --font-family: font-family: "Open Sans",sans-serif;
+}
+.body{
+    margin: 0;
+    font-family: var(--font-family);
+}
+a{
+    text-decoration: none;
+}
+#header{
+color: var(--white-color) !important;
+background: var(--primary-color) !important ;
+padding: 20px;
+border-top-right-radius: 25px;
+border-bottom-right-radius: 50px;
+border-top-left-radius: 50px;
+border-bottom-left-radius: 25px;
+font-size: .8rem;
+letter-spacing: 1px;
+position: top;
+}
+#header i{
+    padding: 0 5px;
+    color: var(--secondary-color);
+}
+#header a{
+    color: var(--white-color);
+}
+.navbar-expand-lg a{
+font-size:  1.2rem;
+}
+.navbar-expand-lg a {
+    font-size: 1.05rem !important;
+    color: rgba(0, 0, 0, 0.435);
+    font-weight: 500;
+}
+.navbar-expand-lg a:hover{
+    color: var(--primary-color);
+    transition: all 0.5s ease;
+}
+.navbar-nav li {
+    padding: 0 10px !important;
+}
+.display-3{
+    font-weight: 800;
+    font-size: 3.8rem;
+    font-family: "Raleway", sans-serif;
+}
+.display-6{
+    font-weight: 800;
+    font-size: 2.5rem;
+    font-family: "Raleway", sans-serif;
+}
+.bg-img{
+    background: url('images/hero-img.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carousel-item a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    background: linear-gradient(rgba(255, 181, 36, 0.7), rgba(255, 181, 36, 0.7));
+}
+.carousel-control-next, .carousel-control-prev {
+    width: 48px;
+    height: 48px;
+    border-radius: 48px;
+    border: 1px solid var(--bs-white);
+    background: var(--bs-primary);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: var(--primary-color);
+}
+.text-primary{
+color: var(--primary-color) !important;
+}
+.text-secondary{
+color: var(--secondary-color) !important;
+}
+.featured{
+    background: var(--grey-color);
+    border: none;
+    text-align: center;
+    width: 100% !important;  
+}
+.card-body i{
+    font-size: 2.5rem !important;
+    padding-bottom: 20px;
+    color: var(--secondary-color);
+}
+.card-body a, p,h4,h5{
+color: grey;
+}
+.bg-secondary{
+    background: var(--secondary-color) !important;
+    color: var(--white-color) !important;
+}
+.border-secondary{
+    border: 1px solid var(--secondary-color) !important;
+}
+input[type=number]:focus{
+    outline-color: var(--primary-color) !important;
+}
+.btn-primary{
+    background: var(--primary-color) !important;
+}
+.fruite-item:hover{
+    box-shadow: 0px 0px 35px rgb(139, 139, 139) !important;
+    transition: all 0.5s ease;
+}
+.fruite-img{
+    overflow: hidden;
+    margin: 0 auto;
+}
+.fruite-img img {
+    transition:0.5s;
+}
+.fruite-img img:hover {
+    transform: scale(1.3);
+}
+.bg-dark{
+    background: var(--dark-color) !important; 
+}
+.footer a {
+    text-decoration: none !important;
+    color: grey !important;
+}
+.btn-outline-secondary{
+    border: 1px solid var(--secondary-color);
+    width: 40px;
+}
+.footer-item .btn:hover{
+    color: var(--white-color) !important;
+    background: var(--secondary-color);
+}
+.footer-item .btn{
+    color: var(--primary-color) !important;
+}
+.btn-outline-secondary:hover{
+    color: var(--dark-color) !important;
+    background: var(--secondary-color) !important;  
+}
+.service .service-item .service-content {
+    position: relative;
+    width: 250px;
+    height: 130px;
+    top: -50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.counter {
+    height: 100%;
+    text-align: center;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+}
+.counter i {
+    font-size: 60px;
+    margin-bottom: 25px;
+}
+.counter h4 {
+    color: var(--primary-color) !important;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.container h1{
+    color: #45595b;
+}
+.fruite-item a:hover{
+background: var(--secondary-color);
+color: var(--white-color) !important;
+transition: all 0.5s ease;
+}
+.side-btn:hover{
+    background: var(--secondary-color);
+    color: var(--white-color) !important;
+    transition: all 0.5s ease;
+}
+.nav.nav-tabs .nav-link.active {
+    border-bottom: 2px solid var(--secondary-color) !important;
+}
+.btn-css:hover{
+    background: var(--secondary-color) !important;
+    color: var(--white-color) !important;
+    transition: all 0.5s ease;
+}
+input[type='range']::-webkit-slider-thumb {
+    background: var(--primary-color);
+}
+@media only screen and (max-width:992px){
+    #header{
+        display: none !important;
+    }
+}
+.btn-search:hover{
+    background: var(--secondary-color) !important;
+}
+.pagination a {
+    color: var(--dark-color);
+    padding: 10px 16px;
+    text-decoration: none;
+    transition: 0.5s;
+    border: 1px solid var(--secondary-color);
+    margin: 0 4px;
+}
+@media only screen and (max-width: 420px){
+.pagination a{
+    padding: 5px 8px !important;
+}
+}
+.bg-primary{
+    background: var(--primary-color) !important;
+}
+.buy-btn:hover{
+    background: var(--primary-color);
+    transition: all 0.5s ease;
+}
+.buy-btn{
+    transition: all 0.5s ease;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background: white;
+    left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0px 4px 20px rgba(0, 0,0,0.301);
+}
+#searchModal .modal-content {
+    background: rgba(255, 255, 255, .8);
+}
+.back-to-top {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    display: flex;
+    width: 45px;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    z-index: 99;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+    background: var(--primary-color);
+}
+   
+::-webkit-scrollbar-thumb {
+    background: var(--secondary-color); 
+    border-radius: 25px;
+}
+ul{
+    list-style: none !important;
+}
+.form-item ul li a:hover h6{
+    padding-left: 10px !important;
+    transition: all 0.5s ease;
+}
+.pagination .page-link {
+    border-radius: 50%;
+    padding: 10px 15px;
+    margin: 0 5px;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #81c408;
+    color: white;
+    border-color: #81c408;
+}
